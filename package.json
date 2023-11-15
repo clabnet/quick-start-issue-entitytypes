@@ -1,5 +1,6 @@
 {
   "scripts": {
+    "bootstrap": "pnpm install --node-linker=hoisted && pnpm build",
     "start": "platformatic start",
     "test": "tsc && node --test dist/test/*/*.test.js",
     "clean": "rm -fr ./dist",
